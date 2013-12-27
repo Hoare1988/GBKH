@@ -1,0 +1,26 @@
+<html>  
+<head>  
+<title>IE调用知识库SDK </title> 
+<script language="JavaScript">  
+	var KBClient;
+	function init()
+	{
+		KBClient= new ActiveXObject("InvokeProcessor.InvokeImpl");    
+		KBClient.invokeExe();
+	}
+
+</script> 
+ 
+</head>  
+  
+<body style="width:80%;">  
+ <center>
+ 		<table width="90%" border="1" bordercolor="#9ADEF0">
+			<tr>
+			<button id="btn_init" style="width:70px" onClick="init();">初始化</button>
+  		  </tr>
+   </table>
+		
+</center>
+</body>  
+</html>  
